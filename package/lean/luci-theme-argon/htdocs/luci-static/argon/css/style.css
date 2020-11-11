@@ -1789,7 +1789,9 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 }
 
 .main>.main-left>.sidenav-header {
-    padding: 1.5rem;
+ 
+    padding-top: 20px;
+    padding-bottom: 5px;
     text-align: center;
 }
 

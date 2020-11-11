@@ -243,7 +243,8 @@
 
 		<div class="main-left">
 			<div class="sidenav-header d-flex align-items-center">
-				<a class="brand" href="#"><%=boardinfo.hostname or "?"%> ™</a>
+<!--这是一段注释。注释不会在浏览器中显示。<a class="brand" href="#"><%=boardinfo.hostname or "?"%> ™</a>-->
+				<a href="#"><img src ="<%=media%>/logo.png" width="200"></a>
 				<div class="ml-auto">
 					<!-- Sidenav toggler -->
 					<div class="sidenav-toggler d-none d-xl-block active" data-action="sidenav-unpin"
@@ -263,7 +264,8 @@
 				<div class="fill">
 					<div class="container">
 						<a class="showSide"></a>
-						<a class="brand" href="#"><%=boardinfo.hostname or "?"%> ™</a>
+<!--这是一段注释。注释不会在浏览器中显示。<a class="brand" href="#"><%=boardinfo.hostname or "?"%> ™</a>-->
+						<a class="brand" href="#">机语云—信大定制路由</a>
 						<div class="pull-right">
 							<% render_changes() %>
 							<span id="xhr_poll_status" style="display:none"
