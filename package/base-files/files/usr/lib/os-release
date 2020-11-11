@@ -1,5 +1,5 @@
-NAME="%D"
-VERSION="%V"
+NAME="%D_NUIST"
+VERSION="%V JIYUCLOUD Studio"
 ID="%d"
 ID_LIKE="lede openwrt"
 PRETTY_NAME="%D %V"
