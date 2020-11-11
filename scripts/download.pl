@@ -211,7 +211,7 @@ foreach my $mirror (@ARGV) {
 		push @mirrors, "https://cdn.jsdelivr.net/gh/". $dir =~ s{\/}{++$i == 2 ? '@' : $&}ger;
 		# give github a few more tries (different mirrors)
 		for (1 .. 5) {
-			push @mirrors, "https://raw.githubusercontent.com/$dir";
+			push @mirrors, "https://github.com/$dir";
 		}
 	} elsif ($mirror =~ /^\@GNU\/(.+)$/) {
 		push @mirrors, "https://mirrors.ustc.edu.cn/gnu/$1";
